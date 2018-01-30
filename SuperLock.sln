@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLockSlimExtend", "ReaderWriterLockSlimExtend\ReaderWriterLockSlimExtend.csproj", "{DAFA14A0-68F4-4F83-8AB9-4AB1D1E2A4CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlConnectionPool", "SqlserverConnectionPool\SqlConnectionPool.csproj", "{270FB6FB-955F-4879-B103-E926301DD7F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DAFA14A0-68F4-4F83-8AB9-4AB1D1E2A4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAFA14A0-68F4-4F83-8AB9-4AB1D1E2A4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAFA14A0-68F4-4F83-8AB9-4AB1D1E2A4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270FB6FB-955F-4879-B103-E926301DD7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270FB6FB-955F-4879-B103-E926301DD7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270FB6FB-955F-4879-B103-E926301DD7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270FB6FB-955F-4879-B103-E926301DD7F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

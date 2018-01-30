@@ -12,6 +12,8 @@ namespace ReaderWriterLockSlimExtend
         private static readonly Striped<ReaderWriterLockSlim> weakLock = Striped<ReaderWriterLockSlim>.lazyWeakLock(1024 * 10);
         static void Main(string[] args)
         {
+
+
             String key = "key";
             ReaderWriterLockSlim wrls = weakLock.get(key);
 
